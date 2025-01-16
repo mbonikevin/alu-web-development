@@ -191,10 +191,27 @@ header {
   gap: 20px;
 }
 
+.videos_section .thumbn {
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+}
 .videos_section .banner {
   height: 150px;
   width: 100%;
   object-fit: cover;
+  position: relative;
+}
+
+.videos_section .thumbn .play{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  z-index: 10;
+  height: 60px;
 }
 
 .videos_section div {
